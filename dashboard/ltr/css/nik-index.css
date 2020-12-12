@@ -1,0 +1,367 @@
+.nik-logout
+{
+	background:red;
+	border-radius:5px;
+	margin-top:5px;
+	padding:5px 10px;
+}
+
+@keyframes nikanimate {
+  from {display:none;margin-top:-100px;}
+  to {display:block;margin-top:100px;}
+}
+
+.nik-pop
+{
+	z-index:1000;
+	top:0;
+	position:fixed;
+	width:100%;
+	height:100%;
+	background-color:rgba(0,0,0,0.5);
+	display:none;
+}
+
+.nik-pop-con
+{
+	margin-top:100px;
+	width:500px;
+	margin-left:auto;
+	margin-right:auto;
+	animation-duration:0.5s;
+}
+
+@media (max-width: 500px) {
+
+.nik-pop-con
+{
+	margin-top:100px;
+	width:100%;
+}
+
+}
+
+.nik-mem-list
+{
+	cursor:pointer;
+}
+
+.nik-index-but
+{
+	display:inline-block;
+	margin-left:15px;
+}
+
+.nik-index-add
+{
+	display:inline-block;
+}
+
+@media (max-width: 400px) {
+.nik-index-add
+{
+	width:100%;
+}
+
+.nik-index-but
+{
+	margin-left:0px;
+	margin-top:10px;
+	width:100%;
+}
+}
+
+.nik-pro-head
+{
+	font-size: 17px;
+	padding: 0px 15px 15px 0px;
+	float:left;
+}
+
+.nik-pro-data
+{
+	font-size: 17px;
+	font-weight: bold;
+	padding: 0px 0px 15px 0px;
+}
+
+.nik-h-address
+{
+	display:none;
+}
+
+.nik-selected
+{
+	display:none;
+}
+
+.nik-selected2
+{
+	display:block;
+}
+
+
+.nik-required
+{
+	color:#ff2525;
+	text-align:left;
+}
+
+.nik-success
+{
+	color:#fff;
+	background-color:#199010;
+}
+
+.nik-suc
+{
+	display:none;
+}
+
+.nik-failure
+{
+	color:#fff;
+	background-color:#ff2525;
+}
+
+.nik-fail
+{
+	display:none;
+}
+
+.nik-radio
+{
+	border: 0px;
+    width: 1.2em;
+    height: 1.2em;
+    vertical-align: text-bottom;
+}
+
+.nik-checkbox
+{
+	border: 0px;
+    width: 1.2em;
+    height: 1.2em;
+    vertical-align: text-bottom;
+}
+
+.nik-acc-but
+{
+	width:100%;
+}
+
+.nik-event:hover
+{
+	color:#fff;
+	background-color:#0495d6;
+}
+
+.nik-event
+{
+	color:#fff;
+	background-color:#4fc3f7;
+}
+
+.nik-rent:hover
+{
+	color:#fff;
+	background-color:#0ead91;
+}
+
+.nik-rent
+{
+	color:#fff;
+	background-color:#36bea6;
+}
+
+
+.nik-fine:hover
+{
+	color:#fff;
+	background-color:#4535a3;
+}
+
+.nik-fine
+{
+	color:#fff;
+	background-color:#7460ee;
+}
+
+.nik-expenditure:hover
+{
+	color:#fff;
+	background-color:#f50a34;
+}
+
+.nik-expenditure
+{
+	color:#fff;
+	background-color:#f62d51;
+}
+
+.nik-income:hover
+{
+	color:#fff;
+	background-color:#b16608;
+}
+
+.nik-income
+{
+	color:#fff;
+	background-color:#fb8c00;
+}
+
+.nik-lightbill:hover
+{
+	color:#fff;
+	background-color:#0c41d0;
+}
+
+.nik-lightbill
+{
+	color:#fff;
+	background-color:#2962ff;
+}
+
+.nik-chkbox
+{
+	width:20px;
+	height:20px;
+}
+
+body {
+  background: #F5F7FA;
+  overflow-x: hidden;
+}
+
+.wrap {
+  position: relative;
+  width:100%;
+  overscroll-behavior: contain;
+}
+
+.headers {
+  top: 0;
+  position: -webkit-sticky;
+  position: sticky;
+  z-index: 1;
+}
+
+.tracks,
+.scroller {
+  overflow: auto;
+  display: flex;
+}
+
+.track {
+  flex: 1 0 calc(22% + 2px);
+  scroll-snap-align: start;
+}
+
+.track + .track {
+  margin-left: -1px;
+}
+
+.heading {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: -webkit-sticky;
+  position: sticky;
+  top: 0;
+  border: solid #fff;
+  border-width: 0 1px;
+  z-index: 1;
+  font-weight: 700;
+}
+
+.entry {
+  border-top: 0;
+  background: #fff;
+}
+
+
+@media (max-width: 767px) {
+  .track {
+    flex: 1 0 calc(50% + 7px);
+  }
+}
+
+
+.nik-message
+{
+	background-color: #e9ecef;
+    border-color: #dee2e6;
+	padding:15px;
+	margin-bottom:20px;
+}
+
+.nik-message-body
+{
+	height: 400px;
+    overflow-y: scroll;
+    overflow-x: hidden;
+}
+
+.nik-topbar
+{
+	position: fixed;
+	top: 0px;
+	width: 100%;
+}
+
+.nik-left-sidebar
+{
+	position: fixed;
+	overflow-y: scroll;
+	overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+  width: 5px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  box-shadow: inset 0 0 5px grey; 
+  border-radius: 10px;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: grey; 
+  border-radius: 10px;
+}
+
+.nik-content
+{
+	margin-top: 64px;
+}
+
+
+@media only screen and (min-width: 100px)
+{
+
+.nik-image
+{
+	width:100%;
+	height:150px;
+}
+
+@media only screen and (min-width: 400px)
+{
+
+.nik-image
+{
+	height:250px;
+}
+
+@media only screen and (min-width: 768px)
+{
+.nik-image
+{
+	height:150px;
+}
+}
+}
+}

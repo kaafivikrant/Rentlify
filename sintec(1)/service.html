@@ -1,0 +1,1040 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <link rel="icon" href="img/favicon.png" type="image/png">
+    <title>Sintec Construction</title>
+    <!-- Bootstrap CSS -->
+	<link rel="stylesheet" href="css/selfHome.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/themify-icons.css">
+    <link rel="stylesheet" href="vendors/fontawesome/css/all.min.css">
+    <link rel="stylesheet" href="vendors/owl-carousel/owl.carousel.min.css">
+    <link rel="stylesheet" href="vendors/animate-css/animate.css">
+    <!-- main css -->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/responsive.css">
+	
+	<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.9/angular.min.js"></script>
+	<script src="js/nik.js"></script>
+</head>
+<body ng-app="myApp" ng-controller="homeCtrl" ng-init="init()">
+
+     <!--================Header Menu Area =================-->
+    <header class="header_area">
+        <div class="top_menu row m0">
+           <div class="container">
+               <div class="float-left">
+                <a class="dn_btn" href=""><i class="ti-mobile"></i>+91 8788299853</a>
+                <span class="dn_btn"> <i class="ti-location-pin"></i> 133/7, Ganesh Colony, Akurdi, Pune :- 33</span>
+            </div>
+            <div class="float-right">
+                <span class="follow_us">Follow us: </span>
+                <ul class="list header_social">
+                    <li><a href="#"><i class="ti-facebook"></i></a></li>
+                    <li><a href="#"><i class="ti-twitter"></i></a></li>
+                    <li><a href="#"><i class="ti-instagram"></i></a></li>
+                    <li><a href="#"><i class="ti-skype"></i></a></li>
+                    <li><a href="#"><i class="ti-vimeo"></i></a></li>
+                </ul>	
+            </div>
+        </div>	
+    </div>	
+    <div class="main_menu">
+       <nav class="navbar navbar-expand-lg navbar-light">
+           <div class="container">
+              <!-- Brand and toggle get grouped for better mobile display -->
+              <a class="navbar-brand logo_h" href="index.html"><img src="img/logo.png" alt="" style="height: 80px;"></a>
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                 <span class="icon-bar"></span>
+                 <span class="icon-bar"></span>
+                 <span class="icon-bar"></span>
+             </button>
+             <!-- Collect the nav links, forms, and other content for toggling -->
+             <div class="collapse navbar-collapse offset" id="navbarSupportedContent">
+                <ul class="nav navbar-nav menu_nav ml-auto">
+                    <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li> 
+                    <li class="nav-item"><a class="nav-link" href="about-us.html">About</a></li> 
+                    <li class="nav-item active"><a class="nav-link" href="service.html">services</a></li> 
+                       
+                
+                    <li class="nav-item"><a class="nav-link" href="contact.html">Contact</a></li>
+					
+					<span class="nik-log-menu">
+					<li class="nav-item" ng-click="open_login()"><a class="nav-link">Login</a></li>
+					<span class="nik-admem" id="nik-admem">
+					<li class="nav-item nik-admin"  ng-click="accept_details_admin()"><a class="nav-link">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Admin</a></li>
+					<li class="nav-item nik-member" ng-click="accept_details_member()"><a class="nav-link" >&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Member</a></li>
+					</span>
+					</span>
+					
+					<li class="nav-item submenu dropdown nik-log">
+                        <span class="login_but">
+						<span class="nav-link dropdown-toggle" style="color: white;" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Login</span>
+                        </span>
+						<ul class="dropdown-menu">
+                            <li class="nav-item" ng-click="accept_details_admin()"><a class="nav-link">Admin</a></li>
+                            <li class="nav-item" ng-click="accept_details_member()"><a class="nav-link">Member</a></li>
+							<!-- <li class="nav-item"><a class="nav-link">User</a></li> -->
+                        </ul>
+                    </li>
+					
+				
+                </ul>
+            </div>
+            
+        </div>
+    </nav>
+
+</div>
+
+</header>
+<!--================Header Menu Area =================-->
+
+ 
+  <!--================Hero Banner Area Start =================-->
+  <section class="hero-banner hero-banner-sm">
+    <div class="container text-center">
+      <h2>Our Services</h2>
+      <nav aria-label="breadcrumb" class="banner-breadcrumb">
+        <ol class="breadcrumb">
+          <li class="breadcrumb-item"><a href="#">Home</a></li>
+          <li class="breadcrumb-item active" aria-current="page">Services</li>
+        </ol>
+      </nav>
+    </div>
+  </section>
+  <!--================Hero Banner Area End =================-->
+
+<div class="nik-provide">
+<!--================Service  Area =================-->
+<section class="service-area area-padding" style="padding:50px 0px;">
+    <div class="container">
+        <div class="area-heading">
+            <h3 class="line">What We Provide</h3>
+            <!-- <p>Together female let signs for for fish fowl may first.</p> -->
+
+        </div>
+        <div class="row">
+
+			<div class="col-md-12 row">
+            
+			
+            <div class="col-md-4" style="display:inline-block;">
+                <div class="single-service">
+                    <div class="">
+                        <img src="img/icon/i4.png" alt="">
+                    </div>
+                    <div class="service-content">
+                        <h5>Building Admin</h5>
+                        <p>Short description about the facilities.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Single service -->
+            <div class="col-md-4" style="display:inline-block;">
+                <div class="single-service">
+                    <div class="">
+                        <img src="img/icon/i1.png" alt="">
+                    </div>
+                    <div class="service-content">
+                        <h5>Building Members</h5>
+                        <p>Short description about the facilities.</p>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- Single service -->
+            <div class="col-md-4" style="display:inline-block;">
+                <div class="single-service">
+                    <div class="">
+                        <img src="img/icon/i3.PNG" alt="">
+                    </div>
+                    <div class="service-content">
+                        <h5>Other Users</h5>
+                        <p>Short description about the facilities.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Single service -->
+            <!--div class="col-md-6 col-xl-3">
+                <div class="single-service">
+                    <div class="">
+                        <img src="img/icon/i4.png" alt="">
+                    </div>
+                    <div class="service-content">
+                        <h5>Building Maintenance</h5>
+                        <p>You're which creepeth were yielding kind, divide sixten po gatherin all first fill Seed wherein life. Years one fifth </p>
+                    </div>
+                </div>
+            </div-->
+            
+			</div>
+        </div>
+    </div>
+</section>
+<!--================Service Area end =================-->
+
+<!--================Admin  Area =================-->
+<section class="nik-service-area area-padding" style="padding:50px 0px;">
+    <div class="container">
+        <div class="area-heading">
+            <h3 class="line">Building Admin</h3>
+            <!-- <p>Together female let signs for for fish fowl may first.</p> -->
+
+        </div>
+        <div class="row">
+
+			<div class="col-md-12 row">
+			
+			<div class="col-md-3" style="display:inline-block;">
+                <div class="nik-single-service">
+                    <div class="nik-service-icon">
+                        <img src="img/icon/i12.png" alt="">
+                    </div>
+                    <div class="nik-service-content">
+                        <h5 class="nik-h">Members Profile</h5>
+                        <p class="nik-b">Short description about the facilities.</p>
+                    </div>
+                </div>
+            </div>
+			
+			<div class="col-md-3" style="display:inline-block;">
+                <div class="nik-single-service">
+                    <div class="nik-service-icon">
+                        <img src="img/icon/i11.png" alt="">
+                    </div>
+                    <div class="nik-service-content">
+                        <h5 class="nik-h">Accounts</h5>
+                        <p class="nik-b">Short description about the facilities.</p>
+                    </div>
+                </div>
+            </div>
+			
+			<div class="col-md-3" style="display:inline-block;">
+                <div class="nik-single-service">
+                    <div class="nik-service-icon">
+                        <img src="img/icon/i7.png" alt="">
+                    </div>
+                    <div class="nik-service-content">
+                        <h5 class="nik-h">Complains</h5>
+                        <p class="nik-b">Short description about the facilities.</p>
+                    </div>
+                </div>
+            </div>
+			
+			<div class="col-md-3" style="display:inline-block;">
+                <div class="nik-single-service">
+                    <div class="nik-service-icon">
+                        <img src="img/icon/i2.PNG" alt="">
+                    </div>
+                    <div class="nik-service-content">
+                        <h5 class="nik-h">Visitors</h5>
+                        <p class="nik-b">Short description about the facilities.</p>
+                    </div>
+                </div>
+            </div>
+			
+			</div>
+			
+            <div class="col-md-12 row" style="margin-top:30px;">
+			
+			<div class="col-md-3" style="display:inline-block;">
+                <div class="nik-single-service">
+                    <div class="nik-service-icon">
+                        <img src="img/icon/i9.png" alt="">
+                    </div>
+                    <div class="nik-service-content">
+                        <h5 class="nik-h">Room Details</h5>
+                        <p class="nik-b">Short description about the facilities.</p>
+                    </div>
+                </div>
+            </div>
+			
+			<div class="col-md-3" style="display:inline-block;">
+                <div class="nik-single-service">
+                    <div class="nik-service-icon">
+                        <img src="img/icon/i5.png" alt="">
+                    </div>
+                    <div class="nik-service-content">
+                        <h5 class="nik-h">Vehicles</h5>
+                        <p class="nik-b">Short description about the facilities.</p>
+                    </div>
+                </div>
+            </div>
+			
+			<div class="col-md-3" style="display:inline-block;">
+                <div class="nik-single-service">
+                    <div class="nik-service-icon">
+                        <img src="img/icon/i10.png" alt="">
+                    </div>
+                    <div class="nik-service-content">
+                        <h5 class="nik-h">Message</h5>
+                        <p class="nik-b">Short description about the facilities.</p>
+                    </div>
+                </div>
+            </div>
+			
+			<div class="col-md-3" style="display:inline-block;">
+                <div class="nik-single-service">
+                    <div class="nik-service-icon">
+                        <img src="img/icon/i6.png" alt="">
+                    </div>
+                    <div class="nik-service-content">
+                        <h5 class="nik-h">Society Details</h5>
+                        <p class="nik-b">Short description about the facilities.</p>
+                    </div>
+                </div>
+            </div>
+			
+            <!-- Single service -->
+            <!--div class="col-md-6 col-xl-3">
+                <div class="single-service">
+                    <div class="">
+                        <img src="img/icon/i4.png" alt="">
+                    </div>
+                    <div class="service-content">
+                        <h5>Building Maintenance</h5>
+                        <p>You're which creepeth were yielding kind, divide sixten po gatherin all first fill Seed wherein life. Years one fifth </p>
+                    </div>
+                </div>
+            </div-->
+            
+			</div>
+        </div>
+    </div>
+</section>
+<!--================Admin Area end =================-->
+
+<!--================Member  Area =================-->
+<section class="nik-service-area area-padding" style="padding:50px 0px;">
+    <div class="container">
+        <div class="area-heading">
+            <h3 class="line">Building Member</h3>
+            <!-- <p>Together female let signs for for fish fowl may first.</p> -->
+
+        </div>
+        <div class="row">
+
+			<div class="col-md-12 row">
+            
+			<div class="col-md-3" style="display:inline-block;">
+                <div class="nik-single-service">
+                    <div class="nik-service-icon">
+                        <img src="img/icon/i12.png" alt="">
+                    </div>
+                    <div class="nik-service-content">
+                        <h5 class="nik-h">Profile</h5>
+                        <p class="nik-b">Short description about the facilities.</p>
+                    </div>
+                </div>
+            </div>
+			
+			<div class="col-md-3" style="display:inline-block;">
+                <div class="nik-single-service">
+                    <div class="nik-service-icon">
+                        <img src="img/icon/i11.png" alt="">
+                    </div>
+                    <div class="nik-service-content">
+                        <h5 class="nik-h">Rent Details</h5>
+                        <p class="nik-b">Short description about the facilities.</p>
+                    </div>
+                </div>
+            </div>
+			
+			<div class="col-md-3" style="display:inline-block;">
+                <div class="nik-single-service">
+                    <div class="nik-service-icon">
+                        <img src="img/icon/i7.png" alt="">
+                    </div>
+                    <div class="nik-service-content">
+                        <h5 class="nik-h">Complaint Status</h5>
+                        <p class="nik-b">Short description about the facilities.</p>
+                    </div>
+                </div>
+            </div>
+			
+			<div class="col-md-3" style="display:inline-block;">
+                <div class="nik-single-service">
+                    <div class="nik-service-icon">
+                        <img src="img/icon/i10.png" alt="">
+                    </div>
+                    <div class="nik-service-content">
+                        <h5 class="nik-h">Quora</h5>
+                        <p class="nik-b">Short description about the facilities.</p>
+                    </div>
+                </div>
+            </div>
+			
+           
+            <!-- Single service -->
+            <!--div class="col-md-6 col-xl-3">
+                <div class="single-service">
+                    <div class="">
+                        <img src="img/icon/i4.png" alt="">
+                    </div>
+                    <div class="service-content">
+                        <h5>Building Maintenance</h5>
+                        <p>You're which creepeth were yielding kind, divide sixten po gatherin all first fill Seed wherein life. Years one fifth </p>
+                    </div>
+                </div>
+            </div-->
+            
+			</div>
+        </div>
+    </div>
+</section>
+<!--================Member Area end =================-->
+
+<!--================Other Users =================-->
+<section class="nik-service-area area-padding" style="padding:50px 0px;">
+    <div class="container">
+        <div class="area-heading">
+            <h3 class="line">Other Users</h3>
+            <!-- <p>Together female let signs for for fish fowl may first.</p> -->
+
+        </div>
+        <div class="row">
+
+			<div class="col-md-12 row">
+            
+			
+            <div class="col-md-4" style="display:inline-block;">
+                <div class="nik-single-service">
+                    <div class="nik-service-icon">
+                        <img src="img/icon/i9.png" alt="">
+                    </div>
+                    <div class="nik-service-content">
+                        <h5 class="nik-h">Search For Room</h5>
+                        <p class="nik-b">Short description about the facilities.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Single service -->
+            <div class="col-md-4" style="display:inline-block;">
+                <div class="nik-single-service">
+                    <div class="nik-service-icon">
+                        <img src="img/icon/i11.png" alt="">
+                    </div>
+                    <div class="nik-service-content">
+                        <h5 class="nik-h">Under Budget</h5>
+                        <p class="nik-b">Short description about the facilities.</p>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- Single service -->
+            <div class="col-md-4" style="display:inline-block;">
+                <div class="nik-single-service">
+                    <div class="nik-service-icon">
+                        <img src="img/icon/i8.png" alt="">
+                    </div>
+                    <div class="nik-service-content">
+                        <h5 class="nik-h">Convenient Room</h5>
+                        <p class="nik-b">Short description about the facilities.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Single service -->
+            <!--div class="col-md-6 col-xl-3">
+                <div class="single-service">
+                    <div class="">
+                        <img src="img/icon/i4.png" alt="">
+                    </div>
+                    <div class="service-content">
+                        <h5>Building Maintenance</h5>
+                        <p>You're which creepeth were yielding kind, divide sixten po gatherin all first fill Seed wherein life. Years one fifth </p>
+                    </div>
+                </div>
+            </div-->
+            
+			</div>
+        </div>
+    </div>
+</section>
+<!--================Other Users Area end =================-->
+</div>
+
+<div class="nik-provide2">
+<!--================Service  Area =================-->
+<section class="service-area area-padding" style="padding:50px 0px;">
+    <div class="container">
+        <div class="area-heading">
+            <h3 class="line">What We Provide</h3>
+            <!-- <p>Together female let signs for for fish fowl may first.</p> -->
+
+        </div>
+        <div class="row">
+            
+			
+            <div class="col-md-12" style="display:inline-block;">
+                <div class="single-service">
+                    <div class="">
+                        <img src="img/icon/i4.png" alt="">
+                    </div>
+                    <div class="service-content">
+                        <h5>Building Admin</h5>
+                        <p>Short description about the facilities.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Single service -->
+            <div class="col-md-12" style="display:inline-block;">
+                <div class="single-service">
+                    <div class="">
+                        <img src="img/icon/i1.png" alt="">
+                    </div>
+                    <div class="service-content">
+                        <h5>Building Members</h5>
+                        <p>Short description about the facilities.</p>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- Single service -->
+            <div class="col-md-12" style="display:inline-block;">
+                <div class="single-service">
+                    <div class="">
+                        <img src="img/icon/i3.PNG" alt="">
+                    </div>
+                    <div class="service-content">
+                        <h5>Other Users</h5>
+                        <p>Short description about the facilities.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Single service -->
+            <!--div class="col-md-6 col-xl-3">
+                <div class="single-service">
+                    <div class="">
+                        <img src="img/icon/i4.png" alt="">
+                    </div>
+                    <div class="service-content">
+                        <h5>Building Maintenance</h5>
+                        <p>You're which creepeth were yielding kind, divide sixten po gatherin all first fill Seed wherein life. Years one fifth </p>
+                    </div>
+                </div>
+            </div-->
+            
+        </div>
+    </div>
+</section>
+<!--================Service Area end =================-->
+
+<!--================Admin  Area =================-->
+<section class="nik-service-area area-padding" style="padding:50px 0px;">
+    <div class="container">
+        <div class="area-heading">
+            <h3 class="line">Building Admin</h3>
+            <!-- <p>Together female let signs for for fish fowl may first.</p> -->
+
+        </div>
+        <div class="row">
+			
+			<div class="col-md-12" style="display:inline-block;margin-top: 30px;">
+                <div class="nik-single-service">
+                    <div class="nik-service-icon">
+                        <img src="img/icon/i12.png" alt="">
+                    </div>
+                    <div class="nik-service-content">
+                        <h5 class="nik-h">Members Profile</h5>
+                        <p class="nik-b">Short description about the facilities.</p>
+                    </div>
+                </div>
+            </div>
+			
+			<div class="col-md-12" style="display:inline-block;margin-top: 30px;">
+                <div class="nik-single-service">
+                    <div class="nik-service-icon">
+                        <img src="img/icon/i11.png" alt="">
+                    </div>
+                    <div class="nik-service-content">
+                        <h5 class="nik-h">Accounts</h5>
+                        <p class="nik-b">Short description about the facilities.</p>
+                    </div>
+                </div>
+            </div>
+			
+			<div class="col-md-12" style="display:inline-block;margin-top: 30px;">
+                <div class="nik-single-service">
+                    <div class="nik-service-icon">
+                        <img src="img/icon/i7.png" alt="">
+                    </div>
+                    <div class="nik-service-content">
+                        <h5 class="nik-h">Complains</h5>
+                        <p class="nik-b">Short description about the facilities.</p>
+                    </div>
+                </div>
+            </div>
+			
+			<div class="col-md-12" style="display:inline-block;margin-top: 30px;">
+                <div class="nik-single-service">
+                    <div class="nik-service-icon">
+                        <img src="img/icon/i2.PNG" alt="">
+                    </div>
+                    <div class="nik-service-content">
+                        <h5 class="nik-h">Visitors</h5>
+                        <p class="nik-b">Short description about the facilities.</p>
+                    </div>
+                </div>
+            </div>
+			
+		
+			
+			<div class="col-md-12" style="display:inline-block;margin-top: 30px;">
+                <div class="nik-single-service">
+                    <div class="nik-service-icon">
+                        <img src="img/icon/i9.png" alt="">
+                    </div>
+                    <div class="nik-service-content">
+                        <h5 class="nik-h">Room Details</h5>
+                        <p class="nik-b">Short description about the facilities.</p>
+                    </div>
+                </div>
+            </div>
+			
+			<div class="col-md-12" style="display:inline-block;margin-top: 30px;">
+                <div class="nik-single-service">
+                    <div class="nik-service-icon">
+                        <img src="img/icon/i5.png" alt="">
+                    </div>
+                    <div class="nik-service-content">
+                        <h5 class="nik-h">Vehicles</h5>
+                        <p class="nik-b">Short description about the facilities.</p>
+                    </div>
+                </div>
+            </div>
+			
+			<div class="col-md-12" style="display:inline-block;margin-top: 30px;">
+                <div class="nik-single-service">
+                    <div class="nik-service-icon">
+                        <img src="img/icon/i10.png" alt="">
+                    </div>
+                    <div class="nik-service-content">
+                        <h5 class="nik-h">Message</h5>
+                        <p class="nik-b">Short description about the facilities.</p>
+                    </div>
+                </div>
+            </div>
+			
+			<div class="col-md-12" style="display:inline-block;margin-top: 30px;">
+                <div class="nik-single-service">
+                    <div class="nik-service-icon">
+                        <img src="img/icon/i6.png" alt="">
+                    </div>
+                    <div class="nik-service-content">
+                        <h5 class="nik-h">Society Details</h5>
+                        <p class="nik-b">Short description about the facilities.</p>
+                    </div>
+                </div>
+            </div>
+			
+            <!-- Single service -->
+            <!--div class="col-md-6 col-xl-3">
+                <div class="single-service">
+                    <div class="">
+                        <img src="img/icon/i4.png" alt="">
+                    </div>
+                    <div class="service-content">
+                        <h5>Building Maintenance</h5>
+                        <p>You're which creepeth were yielding kind, divide sixten po gatherin all first fill Seed wherein life. Years one fifth </p>
+                    </div>
+                </div>
+            </div-->
+            
+			
+        </div>
+    </div>
+</section>
+<!--================Admin Area end =================-->
+
+<!--================Member  Area =================-->
+<section class="nik-service-area area-padding" style="padding:50px 0px;">
+    <div class="container">
+        <div class="area-heading">
+            <h3 class="line">Building Member</h3>
+            <!-- <p>Together female let signs for for fish fowl may first.</p> -->
+
+        </div>
+        <div class="row">
+            
+			<div class="col-md-12" style="display:inline-block;margin-top: 30px;">
+                <div class="nik-single-service">
+                    <div class="nik-service-icon">
+                        <img src="img/icon/i12.png" alt="">
+                    </div>
+                    <div class="nik-service-content">
+                        <h5 class="nik-h">Profile</h5>
+                        <p class="nik-b">Short description about the facilities.</p>
+                    </div>
+                </div>
+            </div>
+			
+			<div class="col-md-12" style="display:inline-block;margin-top: 30px;">
+                <div class="nik-single-service">
+                    <div class="nik-service-icon">
+                        <img src="img/icon/i11.png" alt="">
+                    </div>
+                    <div class="nik-service-content">
+                        <h5 class="nik-h">Rent Details</h5>
+                        <p class="nik-b">Short description about the facilities.</p>
+                    </div>
+                </div>
+            </div>
+			
+			<div class="col-md-12" style="display:inline-block;margin-top: 30px;">
+                <div class="nik-single-service">
+                    <div class="nik-service-icon">
+                        <img src="img/icon/i7.png" alt="">
+                    </div>
+                    <div class="nik-service-content">
+                        <h5 class="nik-h">Complaint Status</h5>
+                        <p class="nik-b">Short description about the facilities.</p>
+                    </div>
+                </div>
+            </div>
+			
+			<div class="col-md-12" style="display:inline-block;margin-top: 30px;">
+                <div class="nik-single-service">
+                    <div class="nik-service-icon">
+                        <img src="img/icon/i10.png" alt="">
+                    </div>
+                    <div class="nik-service-content">
+                        <h5 class="nik-h">Quora</h5>
+                        <p class="nik-b">Short description about the facilities.</p>
+                    </div>
+                </div>
+            </div>
+			
+           
+            <!-- Single service -->
+            <!--div class="col-md-6 col-xl-3">
+                <div class="single-service">
+                    <div class="">
+                        <img src="img/icon/i4.png" alt="">
+                    </div>
+                    <div class="service-content">
+                        <h5>Building Maintenance</h5>
+                        <p>You're which creepeth were yielding kind, divide sixten po gatherin all first fill Seed wherein life. Years one fifth </p>
+                    </div>
+                </div>
+            </div-->
+            
+			
+        </div>
+    </div>
+</section>
+<!--================Member Area end =================-->
+
+<!--================Other Users =================-->
+<section class="nik-service-area area-padding" style="padding:50px 0px;">
+    <div class="container">
+        <div class="area-heading">
+            <h3 class="line">Other Users</h3>
+            <!-- <p>Together female let signs for for fish fowl may first.</p> -->
+
+        </div>
+        <div class="row">
+            
+			
+            <div class="col-md-12" style="display:inline-block;margin-top: 30px;">
+                <div class="nik-single-service">
+                    <div class="nik-service-icon">
+                        <img src="img/icon/i9.png" alt="">
+                    </div>
+                    <div class="nik-service-content">
+                        <h5 class="nik-h">Search For Room</h5>
+                        <p class="nik-b">Short description about the facilities.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Single service -->
+            <div class="col-md-12" style="display:inline-block;margin-top: 30px;">
+                <div class="nik-single-service">
+                    <div class="nik-service-icon">
+                        <img src="img/icon/i11.png" alt="">
+                    </div>
+                    <div class="nik-service-content">
+                        <h5 class="nik-h">Under Budget</h5>
+                        <p class="nik-b">Short description about the facilities.</p>
+                    </div>
+                </div>
+            </div>
+
+
+            <!-- Single service -->
+            <div class="col-md-12" style="display:inline-block;margin-top: 30px;">
+                <div class="nik-single-service">
+                    <div class="nik-service-icon">
+                        <img src="img/icon/i8.png" alt="">
+                    </div>
+                    <div class="nik-service-content">
+                        <h5 class="nik-h">Convenient Room</h5>
+                        <p class="nik-b">Short description about the facilities.</p>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Single service -->
+            <!--div class="col-md-6 col-xl-3">
+                <div class="single-service">
+                    <div class="">
+                        <img src="img/icon/i4.png" alt="">
+                    </div>
+                    <div class="service-content">
+                        <h5>Building Maintenance</h5>
+                        <p>You're which creepeth were yielding kind, divide sixten po gatherin all first fill Seed wherein life. Years one fifth </p>
+                    </div>
+                </div>
+            </div-->
+           
+        </div>
+    </div>
+</section>
+<!--================Other Users Area end =================-->
+</div>
+
+
+<!--================Funny number  Area =================-->
+<section class="number-area" id="number-section">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col-md-5 col-lg-5">
+                <div class="number-img">
+                    <img src="img/banner/about2.png" alt="">
+                </div>
+            </div>
+            <div class="col-md-7 col-lg-6">
+                <div class="number-content">
+                    <h4>Providing Personalized And <br>
+                    High Quality Service .</h4>
+                    <p>Grass bearing make open multiply that may fly cattle gathering be unto<br> void moving. Blessed one evening had them heaven<br> divide said heaven whose brought he. Give It fowl green.</p>
+
+                    <div class="number-wrapper">
+                        <div class="single-number">
+                          <h5><span class="counter">15</span>K+</h5>
+                          <p>happy customer</p>
+                      </div>
+                      <div class="single-number">
+                          <h5><span class="counter">10</span>K+</h5>
+                          <p>Project Done</p>
+                      </div>
+                      <div class="single-number">
+                          <h5><span class="counter">9</span>/<span class="counter">10</span></h5>
+                          <p>Average Rating</p>
+                      </div>
+                  </div>
+              </div>            
+          </div>
+      </div>
+  </div>
+</section>
+<!--================Funny number Area end =================-->
+
+<!--================ start footer Area =================-->
+<footer class="footer-area ">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-4  col-md-6">
+                <div class="single-footer-widget">
+                    <h6>Userful Links</h6>
+                    <div class="row">   
+                        <div class="col-lg-6">
+                           <ul class="footer-nav">
+                            <li><i class="ti-angle-right"></i>
+                                <a href="index.html">home</a>
+                            </li>
+                            <li><i class="ti-angle-right"></i>
+                                <a href="about-us.html">about us</a>
+                            </li>
+                            <li><i class="ti-angle-right"></i>
+                                <a href="#">company news</a>
+                            </li>
+                            <li><i class="ti-angle-right"></i>
+                                <a href="#">careers</a>
+                            </li>
+                        </ul>
+
+                    </div>
+                    <div class="col-lg-6">
+                       <ul class="footer-nav">
+                        <li><i class="ti-angle-right"></i>
+                            <a href="service.html">our services</a>
+                        </li>
+                        <li><i class="ti-angle-right"></i>
+                            <a href="#">terms and condition</a>
+                        </li>
+                        <li><i class="ti-angle-right"></i>
+                            <a href="contact.html">contuct us</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <div class="col-lg-4  col-md-6">
+        <div class="single-footer-widget mail-chimp">
+            <h6 class="mb-20">Business Hours</h6>
+            <ul class="business-hour">
+                <li>Monday - Friday : <span>9:00 am - 18:00 pm</span>   </li>
+                <li>Saturday :<span>9:00 am - 16:00 pm</span></li>
+                <li>Sunday :<span>Closed</span></li>
+            </ul>
+            <p>We work all the holidays!</p>
+        </div>
+    </div>
+    <div class="col-lg-4  col-md-12">
+        <div class="single-footer-widget newsletter">
+            <h6>Contact Us</h6>
+            <!--div id="mc_embed_signup">
+                <form target="_blank" action="https://spondonit.us12.list-manage.com/subscribe/post?u=1462626880ade1ac87bd9c93a&amp;id=92a4423d01"
+                method="get" class="form-inline">
+
+                <div class="form-group row no-gutters">
+                    <div class="col-lg-8 col-md-8 col-7">
+                        <input name="EMAIL" placeholder="Your Email Address" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Your Email Address '"
+                        required="" type="email">
+                    </div>
+
+                    <div class="col-lg-4 col-md-4 col-5">
+                        <button class="nw-btn main_btn circle">subscribe
+                            <span class="lnr lnr-arrow-right"></span>
+                        </button>
+                    </div>
+                </div>
+                <div class="info"></div>
+            </form>
+        </div>
+        <p>Sign up for new Recover Construction Company
+        content, updates, surveys & offers.</p>
+        <a class="footer-link" href="#">privacy policy</a-->
+		
+		<h5>Address</h5>
+		
+		<p>133/7, Ganesh Colony, Akurdi, Pune :- 33</p>
+
+		<ul>
+                <li>Phone No : &nbsp;&nbsp;&nbsp;&nbsp; <span>+91 8788299853</span>   </li>
+                <li>Email Id : &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <span>nikdc121@gmail.com</span></li>
+        </ul>
+
+		
+    </div>
+</div>
+</div>
+
+
+</div>
+
+<div class="footer-bottom">
+    <div class="container">
+        <div class="row ">
+            <p class="col-lg-12 footer-text "><!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+			All Rights Reserved by AVNN Technologies. Designed and Developed by <a href="#">AVNN Technologies</a>.
+<!-- Link back to Colorlib can't be removed. Template is licensed under CC BY 3.0. -->
+            </p>
+        </div>    
+    </div>  
+</div>
+
+</footer>
+<!--================ End footer Area =================-->
+
+
+<!--login admin popup-->
+<form name="f1">
+<div class="login_head" id="login_head_admin">
+	<div class="login_sub col-md-4" id="login_sub_admin">
+		<div class="log_head">ADMIN LOGIN <div class="log_close" ng-click="close_login_admin()">X</div></div>
+		<div class="log_sub">
+		
+			<div class="mob_num_head" id="name_head_admin">
+				<input type="text" class="name" ng-model="name" placeholder="Enter Name" id="name_admin" ng-focus="clear_login_note_admin()" required>
+			</div>
+			
+			<div class="mob_num_head" id="mob_num_head_admin">
+				<div class="country_code">+91</div>
+				<input type="number" class="mob_num"  ng-model="mobile" placeholder="Enter Mobile No" id="mob_num_admin" ng-focus="clear_login_note_admin()" required>
+			</div>
+			
+			<div class="otp_head" id="otp_head_admin">
+				<input type="number" class="otp" id="otp" ng-focus="clear_otp_note_admin()" placeholder="Enter OTP...">
+			</div>
+			<div class="login_note" id="login_note_admin" >Please enter a 10 digit number!</div>
+			<div class="otp_note" id="otp_note_admin" >Invalid OTP!</div>
+			<div class="log_submit_head">
+				<button class="login_submit" ng-click="login_submit_admin()">Submit</button>
+			</div>
+		</div>
+	</div>
+</div>
+</form>
+<!--login admin popupends-->
+
+<!--login member popup-->
+<form name="f2">
+<div class="login_head" id="login_head_member">
+	<div class="login_sub col-md-4" id="login_sub_member">
+		<div class="log_head">MEMBER LOGIN <div class="log_close" ng-click="close_login_member()">X</div></div>
+		<div class="log_sub">
+		
+			<div class="mob_num_head" id="name_head_member" style="display:none;">
+				<input type="text" class="name" ng-model="member_name" placeholder="Enter Name" id="name_member" ng-focus="clear_login_note_member()" required>
+			</div>
+			
+			<div class="mob_num_head" id="mob_num_head_member">
+				<div class="country_code">+91</div>
+				<input type="number" class="mob_num" placeholder="Enter Mobile No" id="mob_num_member" ng-focus="clear_login_note_member()" required>
+			</div>
+			
+			<div class="otp_head" id="otp_head_member">
+				<input type="number" class="otp" id="otp_member" ng-focus="clear_otp_note_member()" placeholder="Enter OTP...">
+			</div>
+			<div class="login_note" id="login_note_member" >Please enter a 10 digit number!</div>
+			<div class="login_note" id="admin_note_member" >Admin has not added your details!</div>
+			<div class="otp_note" id="otp_note_member" >Invalid OTP!</div>
+			<div class="log_submit_head">
+				<button class="login_submit" ng-click="login_submit_member()">Submit</button>
+			</div>
+		</div>
+	</div>
+</div>
+</form>
+<!--login member popupends-->
+
+
+
+
+<!-- Optional JavaScript -->
+<!-- jQuery first, then Popper.js, then Bootstrap JS -->
+<script src="js/jquery-2.2.4.min.js"></script>
+<script src="js/popper.js"></script>
+<script src="js/bootstrap.min.js"></script>
+<script src="js/stellar.js"></script>
+<script src="vendors/isotope/imagesloaded.pkgd.min.js"></script>
+<script src="vendors/isotope/isotope.pkgd.min.js"></script>
+<script src="vendors/owl-carousel/owl.carousel.min.js"></script>
+<script src="js/jquery.ajaxchimp.min.js"></script>
+<script src="js/jquery.counterup.min.js"></script>
+<script src="js/waypoints.min.js"></script>
+<script src="js/mail-script.js"></script>
+<script src="js/contact.js"></script>
+<script src="js/jquery.form.js"></script>
+<script src="js/jquery.validate.min.js"></script>
+<script src="js/mail-script.js"></script>
+<script src="js/theme.js"></script>
+</body>
+</html>

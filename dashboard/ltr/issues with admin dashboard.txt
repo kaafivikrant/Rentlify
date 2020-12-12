@@ -1,0 +1,6 @@
+1. In mobile view the "Add Building", "Update" and "Delete" buttons are not properly aligned.
+2. In mobile view the Heading "Spectrum" and the menu example "Members" are not in a line.
+3. If the table overflows then it should be srcolled horizontally instead of going out of div in every page.
+4. Assign "0" to "Total" in the "Accounts" section "fine" and "events" menu.
+5. In "Vehicles" section instead of "Add Member" their should be "Add Vehicle".
+6. In mobile view their is issue with "Delete" button alignment in "Update" section under "Society Details".
